@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <PackageId>DesafioTecnicoDev.Commons</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>IgorCouto</Authors>
+        <Description>Pacote parte do desafio técnico Supplier</Description>
+        <PackageTags>desafio</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="2.1.66" />
+        <PackageReference Include="FluentValidation" Version="11.11.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+        <PackageReference Include="MySql.Data" Version="9.2.0" />
+    </ItemGroup>
+
+</Project>
