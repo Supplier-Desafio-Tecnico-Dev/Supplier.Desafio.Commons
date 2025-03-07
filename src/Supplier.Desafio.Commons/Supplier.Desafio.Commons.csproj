@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
         <PackageId>DesafioTecnicoDev.Commons</PackageId>
-        <Version>1.2.1</Version>
+        <Version>1.3.1</Version>
         <Authors>IgorCouto</Authors>
         <Description>Pacote parte do desafio técnico Supplier</Description>
         <PackageTags>desafio</PackageTags>
